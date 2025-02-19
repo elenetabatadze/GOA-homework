@@ -1,0 +1,3 @@
+first_name = input("elene: ")
+last_name = input("tabatadze: ")
+print(f"hello, {firs_name} {last_name})
