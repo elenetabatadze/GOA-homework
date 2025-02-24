@@ -94,9 +94,3 @@ pendown()
 
 left(90)
 forward(40)
-
-
-
-
-
-
