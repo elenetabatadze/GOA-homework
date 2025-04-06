@@ -4,5 +4,4 @@ missing_numbers = [5, 7]
 for num in missing_numbers:
     numbers.append(num)
 
-# შედეგი
 print(numbers)
