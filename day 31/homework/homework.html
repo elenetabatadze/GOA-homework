@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>List Style Position</title>
+  <style>
+    .inside-list {
+      list-style-position: inside;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .outside-list {
+      list-style-position: outside;
+      background-color: #e0e0e0;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Inside List</h2>
+  <ul class="inside-list">
+    <li>პუნქტი 1</li>
+    <li>პუნქტი 2</li>
+    <li>პუნქტი 3</li>
+  </ul>
+
+  <h2>Outside List</h2>
+  <ul class="outside-list">
+    <li>პუნქტი A</li>
+    <li>პუნქტი B</li>
+    <li>პუნქტი C</li>
+  </ul>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation Active Example</title>
+  <style>
+    nav a {
+      color: orange;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    nav a:active {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">მთავარი</a>
+    <a href="#">სერვისები</a>
+    <a href="#">კონტაქტი</a>
+  </nav>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation with Hover</title>
+  <style>
+    nav a {
+      color: orange;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      transition: color 0.3s;
+    }
+
+    nav a:active {
+      color: red; /* დაჭერისას */
+    }
+
+    nav a:hover {
+      color: blue; /* მაუსის გადატარებისას */
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">მთავარი</a>
+    <a href="#">სერვისები</a>
+    <a href="#">კონტაქტი</a>
+  </nav>
+
+</body>
+</html>

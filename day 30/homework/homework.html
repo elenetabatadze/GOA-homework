@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Navigation</title>
+  <style>
+    nav {
+      background-color: #4CAF50; /* მწვანე ფონი */
+      border-radius: 10px;       /* კუთხეების მომრგვალება */
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">მთავარი</a></li>
+      <li><a href="#">ჩვენ შესახებ</a></li>
+      <li><a href="#">სერვისები</a></li>
+      <li><a href="#">კონტაქტი</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
+
+
+
+
+ <!--Inline CSS — გამოიყენება კონკრეტული HTML ელემენტზე style ატრიბუტით.
+   მაგალითი: <h1 style="color: red;">Hello</h1>
+
+ Internal CSS — გამოიყენება HTML დოკუმენტის <head> ნაწილში <style> ტეგის შიგნით.
+   გამოიყენება ერთი HTML გვერდისთვის.
+   მაგალითი:
+   <style>
+     h1 {
+       color: red;
+     }
+   </style>
+
+3. External CSS — სტილები განთავსებულია ცალკე .css ფაილში.
+   HTML დოკუმენტში ერთდება <link> ტეგით.
+   გამოიყენება მრავალ გვერდზე და სუფთა კოდს უზრუნველყოფს.
+   მაგალითი:
+   <link rel="stylesheet" href="styles.css">
+
+➡ უპირატესობა: External CSS არის საუკეთესო პრაქტიკა მრავალ გვერდიან პროექტებში.
+-->

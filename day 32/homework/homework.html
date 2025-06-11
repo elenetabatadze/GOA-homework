@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS სტილების მაგალითი</title>
+
+  <!-- ✅ Internal CSS -->
+  <style>
+    .internal-style {
+      background-color: lightblue;
+      padding: 10px;
+      margin: 10px 0;
+      border: 2px solid blue;
+    }
+
+    /* Navigation styles */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav li {
+      padding: 10px 15px;
+      background-color: #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    nav li.home {
+      background-color: orange;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav li:hover {
+      background-color: lightgray;
+    }
+  </style>
+
+  <!-- ✅ External CSS ფაილის ჩართვა -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>სტილიზებული Div-ები</h2>
+
+  <!-- ✅ Inline CSS -->
+  <div style="background-color: pink; padding: 10px; border: 1px solid red;">
+    ეს არის Inline სტილით გაფორმებული div.
+  </div>
+
+  <!-- ✅ Internal CSS -->
+  <div class="internal-style">
+    ეს არის Internal CSS სტილით გაფორმებული div.
+  </div>
+
+  <!-- ✅ External CSS -->
+  <div class="external-style">
+    ეს არის External CSS სტილით გაფორმებული div.
+  </div>
+
+  <hr>
+
+  <h2>ნავიგაცია განსხვავებული სტილებით</h2>
+
+  <nav>
+    <ul>
+      <li class="home">Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+</body>
+</html>
